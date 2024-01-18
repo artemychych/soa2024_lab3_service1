@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
-@ComponentScan("se.ifmo.ru")
+@ComponentScan("se.ifmo.ru.soa2024_lab3_service1.web.controller")
 @EnableWebMvc
 @Slf4j
 public class WebConfiguration implements WebMvcConfigurer {
